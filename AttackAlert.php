@@ -3,7 +3,7 @@
  * Piwik - Open source web analytics
  * 
  * @category Piwik_Plugins
- * @package Piwik_AttackAlert
+ * @package  Piwik_AttackAlert
  */
 
 /**

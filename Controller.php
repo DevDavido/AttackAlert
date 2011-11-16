@@ -3,7 +3,7 @@
  * Piwik - Open source web analytics
  * 
  * @category Piwik_Plugins
- * @package Piwik_AttackAlert
+ * @package  Piwik_AttackAlert
  */
 
 require_once PIWIK_INCLUDE_PATH . '/plugins/UserSettings/functions.php';
@@ -27,8 +27,6 @@ class Piwik_AttackAlert_Controller extends Piwik_Controller
     {
         parent::__construct();
         $this->idSite = Piwik_Common::getRequestVar('idSite');
-		$this->minIdVisit = Piwik_Common::getRequestVar('minIdVisit', 0, 'int');
-		$this->unknownOnly = Piwik_Common::getRequestVar('unknownOnly', 0, 'int') == 1;
     }
     
     /**
